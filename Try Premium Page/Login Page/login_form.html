@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login_form.css" />
+  </head>
+  <body>
+    <div class="video">
+      <video autoplay muted loop id="login_vid">
+        <source src="login video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="contanier">
+        <div class="left_div">
+            <h1>Login</h1>
+            <div class="form">
+                
+                <label class="lab" for="text">Username</label><br>
+                <input class="username" id="username" type="text" placeholder="Username / mobile no."><br>
+               
+                <label class="lab" for="password">Password</label><br>
+                <input class="password" id="password" type="text" placeholder="Type your Password"><br>
+
+                <input class="submit-btn" type="submit" onclick="check()">
+          </div>
+        </div>
+        <div class="right_div">
+            <img src="login_poster.jpg" alt="App Image">
+        </div>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>

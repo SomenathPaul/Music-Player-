@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Try Premium</title>
+    <link rel="stylesheet" href="try_premium.css" />
+  </head>
+  <body>
+    <div class="Pre-back">
+      <img src="background.jpg" />
+
+      <div class="contanier">
+        <div class="left_div">
+          <h1>Choose Plan</h1>
+          <div class="form">
+            <input
+              type="radio"
+              id="annual"
+              required
+              name="try-one"
+              value="annual"
+              style="height: 25px; width: 25px; vertical-align: middle"
+              onclick="alert('You have Selected for 499/- Plan for 1 Year');"
+            />
+              <label for="html">Annual</label><br />
+            <p style="font-style: italic">₹499 / year</p>
+            <input
+              type="radio"
+              id="quarterly"
+              name="try-one"
+              value="quarterly"
+              required
+              style="height: 25px; width: 25px; vertical-align: middle"
+              
+              onclick="alert('You have Selected for 299/- Plan for 3 Month');"
+            />
+              <label for="css">Quarterly</label><br />
+            <p style="font-style: italic">₹299 / 3 months</p>
+            <div class="buy-btn">
+              <input class="submit-btn" type="submit" value="Buy Now" onclick="alert('Thank You!! Your Plan is Sucessfully Purchased');"/>
+            </div>
+            <p style="font-size: 18px; margin-top: 10px; color: #fff">
+              Already a Member?
+              <a
+                href="Login Page/login_form.html" target="_blank"
+                style="color: rgb(0, 76, 255); text-decoration: underline"
+                >Login</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="right_div">
+          <p>
+            <a href=""><i class="fa-solid fa-house"></i></a
+            ><span style="color: rgb(0, 64, 255)">Music</span> Player
+          </p>
+
+          <img src="premium list.png" alt="List"  />
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/fa3dd976de.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

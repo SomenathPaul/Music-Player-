@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+.Pre-back{
+  display: flex;
+}
+.Pre-back img{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+}
+.Pre-back .contanier{
+    /* border: 1px solid #ffffff53; */
+    /* background: rgba(52, 46, 4, 0.759); */
+    width: 1200px;
+    height: 600px;
+    margin: 100px 0px 100px 160px;
+    display: flex;
+}
+/* right div */
+.Pre-back .contanier .right_div{
+  /* border: 1px solid aqua; */
+  width: 450px;
+  height: 450px;
+  margin: 70px 100px;
+}
+.Pre-back .contanier .right_div p{
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffffee;
+  padding-bottom: 20px;
+}
+.Pre-back .contanier .right_div p i{
+  color: blue;
+  font-size: 38px;
+  padding-right: 10px;
+  transition: .3s;
+}
+.Pre-back .contanier .right_div p i:hover{
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  padding-right: 10px;
+}
+.Pre-back .contanier .right_div img{
+  width: 370px;
+}
+/* left div */
+.Pre-back .contanier .left_div{
+  border: 2px solid gold;
+  border-radius: 30px;
+  width: 450px;
+  height: 500px;
+  margin: 50px;
+  text-align: center;
+  padding-top: 60px;
+  transition: .3s;
+}
+.Pre-back .contanier .left_div:hover{
+  width: 455px;
+  height: 500px;
+  margin: 48px;
+}
+.Pre-back .contanier .left_div h1{
+  color: #fff;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+}
+.Pre-back .contanier .left_div .form{
+  margin: 80px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  display: inline-block;
+  text-align: left;
+}
+.Pre-back .contanier .left_div .form p{
+  color: gold;
+  margin-left: 50px;
+  font-size: 25px;
+  font-family: s;
+}
+
+.Pre-back .contanier .left_div .form .submit-btn{
+  background-color: goldenrod;
+  width: 300px;
+  height: 50px;
+  border: 2px solid goldenrod;
+  border-radius: 30px;
+  text-align: center;
+  border-color: goldenrod;
+  color: #000;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s;
+}
+.Pre-back .contanier .left_div .form .submit-btn:hover{
+  background-color: transparent;
+  color: goldenrod;
+}
+
+
+
+
+/* Responsive */
+@media screen and (max-width:480px){
+  /* .Pre-back{
+    display: inline-block;
+  } */
+  .Pre-back img{
+      position: fixed;
+      z-index: -1;
+      height: 100%;
+  }
+  .Pre-back .contanier{
+      /* border: 2px solid #ffffff; */
+      width: 410px;
+      height: 900px;
+      margin: 20px 0px 100px 32px;
+      display: inline;
+  }
+
+  /* ------------------------------right div--------------------------------------- */
+
+  .Pre-back .contanier .right_div{
+    /* border: 1px solid aqua; */
+    width: 400px;
+    height: 370px;
+    margin: 50px 3px;
+  }
+  .Pre-back .contanier .right_div p{
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+  }
+  .Pre-back .contanier .right_div p i{
+    color: blue;
+    font-size: 38px;
+    padding-right: 30px;
+  }
+  .Pre-back .contanier .right_div img{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+  }
+  /*--------------------------------- left div ---------------------------------------*/
+  .Pre-back .contanier .left_div{
+    border: 2px solid gold;
+    border-radius: 30px;
+    width: 100%;
+    height: 430px;
+    margin: 0px;
+    text-align: center;
+  }
+  .Pre-back .contanier .left_div:hover{
+    width: 100%;
+    height: 430px;
+    margin: 0px;
+  }
+  .Pre-back .contanier .left_div h1{
+    color: #fff;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+  }
+  .Pre-back .contanier .left_div .form{
+    margin: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    text-align: left;
+  }
+  .Pre-back .contanier .left_div .form p{
+    color: gold;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: s;
+  }
+  
+  .Pre-back .contanier .left_div .form .submit-btn{
+    background-color: goldenrod;
+    width: 300px;
+    height: 50px;
+    border: 2px solid goldenrod;
+    border-radius: 30px;
+    text-align: center;
+    border-color: goldenrod;
+    color: #000;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .Pre-back .contanier .left_div .form .submit-btn:hover{
+    background-color: transparent;
+    color: goldenrod;
+  }
+}
